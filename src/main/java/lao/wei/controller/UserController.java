@@ -23,6 +23,7 @@ public class UserController {
     @PostMapping
     public boolean save(User user) {
         System.out.println("我是保存的...");
+        System.out.println("我是保存的...22");
         return userService.save(user);
     }
 
